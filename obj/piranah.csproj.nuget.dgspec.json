@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\piranha-cms\\piranah.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\piranha-cms\\piranah.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\piranha-cms\\piranah.csproj",
+        "projectName": "piranah",
+        "projectPath": "C:\\projects\\piranha-cms\\piranah.csproj",
+        "packagesPath": "C:\\Users\\delna\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\piranha-cms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\delna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Piranha": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AspNetCore.Identity.SQLite": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AttributeBuilder": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Data.EF.SQLite": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.ImageSharp": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Local.FileStorage": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager.LocalAuth": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager.TinyMCE": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
