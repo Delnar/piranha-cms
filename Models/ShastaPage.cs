@@ -3,8 +3,8 @@ using Piranha.Models;
 
 namespace piranah.Models;
 
-[PageType(Title = "Shasta Page")]
-[ContentTypeRoute(Title = "Default", Route = "/ShastaPageStandard")]
+[PageType(Title = "ShastaPage", Description = "Shasta Page")]
+[ContentTypeRoute(Title = "Default", Route = "/ShastaPage")]
 public class ShastaPage : Page<ShastaPage>
 {
     

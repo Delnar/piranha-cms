@@ -73,7 +73,7 @@ app.UsePiranha(options =>
     options.UseManager();
     options.UseTinyMCE();
     options.UseIdentity();
-
+    
     
     // App.Blocks.Register<MyWeb.Blocks.RawHtmlBlock>();    
     App.Modules.Manager().Scripts.Add("~/custom-block.js");
